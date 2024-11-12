@@ -64,7 +64,3 @@ class PokemonApi:
                 self._save_checkpoint(extracted)
             else:
                 print(f"Error: {response.status_code} for {endpoint}")
-
-
-a = PokemonApi()
-a.get_data()
